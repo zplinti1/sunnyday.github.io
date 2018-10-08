@@ -14,7 +14,7 @@
     
     
     
-    <title>Archives | 晴天 | sunny day</title>
+    <title>晴天 | sunny day</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
@@ -25,10 +25,11 @@
 <meta name="keywords" content="snny day">
 <meta property="og:type" content="website">
 <meta property="og:title" content="晴天">
-<meta property="og:url" content="http://localhost:4000/archives/index.html">
+<meta property="og:url" content="http://localhost:4000/tags/index.html">
 <meta property="og:site_name" content="晴天">
 <meta property="og:description" content="every day is a sunny day">
 <meta property="og:locale" content="cn">
+<meta property="og:updated_time" content="2018-10-08T17:04:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="晴天">
 <meta name="twitter:description" content="every day is a sunny day">
@@ -73,14 +74,14 @@
               </a>
             </li>
         
-            <li class="waves-block waves-effect active">
+            <li class="waves-block waves-effect">
               <a href="/archives"  >
                 <i class="icon icon-lg icon-archives"></i>
                 Archives
               </a>
             </li>
         
-            <li class="waves-block waves-effect">
+            <li class="waves-block waves-effect active">
               <a href="/tags"  >
                 <i class="icon icon-lg icon-tags"></i>
                 Tags
@@ -126,7 +127,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">Archives</div>
+        <div class="flex-col header-title ellipsis">Tags</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -145,82 +146,34 @@
         
     </div>
 </header>
-<header class="content-header archives-header">
+<header class="content-header tags-header">
 
     <div class="container fade-scale">
-        <h1 class="title">Archives</h1>
+        <h1 class="title">Tags</h1>
         <h5 class="subtitle">
             
         </h5>
     </div>
 
     
+<div class="tabs-bar container">
+    <nav class="tags-list">
+        <a href="/tags" style="-webkit-order:-1;order:-1" class="tags-list-item waves-effect waves-button waves-light
+             active">All</a>
+        
+    </nav>
+    <!-- PC show more-->
+    <div class="tags-list-more">
+        <a href="javascript:;" onclick="BLOG.tabBar(this)" class="action tags-list-item waves-effect waves-circle waves-light"><i class="icon icon-ellipsis-h"></i></a>
+    </div>
+</div>
+
 
 
 </header>
 
 <div class="container body-wrap fade">
     
-
-    
-            
-            <h3 class="archive-separator">October, 2018</h3>
-            <div class="waterfall">
-    
-
-        <div class="waterfall-item">
-  <article class="article-card archive-article">
-    <div class="post-meta">
-      <time class="post-time" title="2018-10-09 00:15:44" datetime="2018-10-08T16:15:44.000Z"  itemprop="datePublished">2018-10-09</time>
-
-      
-
-
-    </div>
-    
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2018/10/09/firstPost/">firstPost</a>
-    </h3>
-  
-
-
-
-    
-  </article>
-</div>
-
-    
-
-        <div class="waterfall-item">
-  <article class="article-card archive-article">
-    <div class="post-meta">
-      <time class="post-time" title="2018-10-08 23:59:43" datetime="2018-10-08T15:59:43.000Z"  itemprop="datePublished">2018-10-08</time>
-
-      
-
-
-    </div>
-    
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2018/10/08/hello-world/">Hello World</a>
-    </h3>
-  
-
-
-
-    
-  </article>
-</div>
-
-    
-    </div>
-
     
 </div>
 
@@ -263,7 +216,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://localhost:4000/archives/&title=晴天&pic=http://localhost:4000/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://localhost:4000/tags/&title=晴天&pic=http://localhost:4000/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -273,22 +226,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://localhost:4000/archives/&title=晴天&source=every day is a sunny day" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://localhost:4000/tags/&title=晴天&source=every day is a sunny day" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/archives/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/tags/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=晴天&url=http://localhost:4000/archives/&via=http://localhost:4000" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=晴天&url=http://localhost:4000/tags/&via=http://localhost:4000" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/archives/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/tags/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -299,7 +252,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAAByElEQVR42u3aS47DIBAFwNz/0p7tSCOT98AwiVSsIsU2ZS9a9Of1itf1a43//XvN+K7XjoWLi7vMvYYrAbXPufs9vhcXF/c8dxxokqCTUNrn4+Lifgv3buP8oDMOcLi4uN/LHR93xlfi4uJ+CzdPWvJyydwLPJar4eLiLnDzbfb93lLfxcXFneJe5cpD0vgoM7dwcXHPcNtiaJLqrJdC3uyLi4u7mduGmKQ1koxfzBVTcHFxz3Dngk47QtG+Uj2EgYuLu4Gbpyvr4xd5snR7GMLFxd3MzYsd+eEmv7e+CxcX9wg3CVV52hMNT8TJTzR+gYuLu4GbHC+eLaQmu9x+IFxc3CPcPOjsa7JONl1wcXGPc9v0pi2DJs2bIpDh4uIe4a6EsKeGOd6kSbi4uJu5c8NS7QBH276N5shwcXE3c/PiRc5qE54o+cHFxf0nbruW0piy0YKLi7ube5Wrbbq0AXHpq+Di4j7EXQlV6+EpSbomXwYXF3eZ+1Qy0xY+2ufg4uKe564URtuW6lxBFhcX9/O5bUKVt16Kzg8uLu7HcPOUJg98+SEJFxf3JHdubCLZ8qk0CRcX9yQ3L5i2Qa0NZyspEy4u7kPcH1RfAS9736muAAAAAElFTkSuQmCC" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABw0lEQVR42u3aQY6DMAwF0N7/0h1ptjOl/8cQWullVVEILyys2M7jEY/n7/h75dV4defxnKcNXFzcMTd5cTJ1AjqeP1k8Li7uTu7x618+vBRzXs2ffAJcXNxP47bBKF88Li7u93In6GQBuLi4n8ZNtiOT6+3iT8jVcHFxB9y2YHrF7wvru7i4uCX3WY62eJqnQNHbcXFxt3DzFkheHFlrvRQfBRcX92JuXphoE5i1z/HmQ+Di4m7h5lFirVE6v38xqOHi4l7GnYSq5P48nBX7I1xc3DF3LWBN0qG83fLPU7i4uBu5bbPzOAzlLdKWjouLexd3rWyRF01GbVdcXNzt3HaKs9qoRVsFFxd3CzcPcMkUZx3mwMXFvZfbpihJorJ2PQqOuLi4W7jthqY9qLHGLRoquLi4F3Db0udaGMrbq2+2Vri4uBu5k3DWlkUe5cDFxb2Le1YhI0mc1tqxl9RdcHFxx6NtoM4TqqK+i4uLewH3rCTnODDl979ZMC4u7kbuJNXJ/00iaNQBxsXF/RhujmjDVrEBwsXF/Vpu2z4pGjO4uLgbufnhicnBi6SlelpZBBcXd8BtC6ZrjZD2qBYuLu5N3B+4wPwzk8RQoAAAAABJRU5ErkJggg==" alt="微信分享二维码">
 </div>
 
 
