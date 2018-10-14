@@ -14,7 +14,7 @@
     
     
     
-    <title>晴天 | sunny day</title>
+    <title>Tags: 金融投资 | 晴天 | sunny day</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
@@ -25,7 +25,7 @@
 <meta name="keywords" content="snny day">
 <meta property="og:type" content="website">
 <meta property="og:title" content="晴天">
-<meta property="og:url" content="http://localhost:4000/index.html">
+<meta property="og:url" content="http://localhost:4000/tags/金融投资/index.html">
 <meta property="og:site_name" content="晴天">
 <meta property="og:description" content="every day is a sunny day">
 <meta property="og:locale" content="zh-CN">
@@ -66,7 +66,7 @@
     <div class="scroll-wrap flex-col">
       <ul class="nav">
         
-            <li class="waves-block waves-effect active">
+            <li class="waves-block waves-effect">
               <a href="/"  >
                 <i class="icon icon-lg icon-home"></i>
                 主页
@@ -80,7 +80,7 @@
               </a>
             </li>
         
-            <li class="waves-block waves-effect">
+            <li class="waves-block waves-effect active">
               <a href="/tags"  >
                 <i class="icon icon-lg icon-tags"></i>
                 标签
@@ -105,7 +105,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">晴天</div>
+        <div class="flex-col header-title ellipsis">Tags: 金融投资</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -124,38 +124,58 @@
         
     </div>
 </header>
-<header class="content-header index-header">
+<header class="content-header tags-header">
 
     <div class="container fade-scale">
-        <h1 class="title">晴天</h1>
+        <h1 class="title">Tags: 金融投资</h1>
         <h5 class="subtitle">
-            
-                sunny day
             
         </h5>
     </div>
 
     
+<div class="tabs-bar container">
+    <nav class="tags-list">
+        <a href="/tags" style="-webkit-order:-1;order:-1" class="tags-list-item waves-effect waves-button waves-light
+            ">全部</a>
+        
+
+            <a href="/tags/Java/" style="-webkit-order:2;order:2" class="tags-list-item waves-effect waves-button waves-light">Java</a>
+
+        
+
+            <a href="/tags/默克家庭医学手册/" style="-webkit-order:0;order:0" class="tags-list-item waves-effect waves-button waves-light">默克家庭医学手册</a>
+
+        
+
+            <a href="/tags/金融投资/" style="-webkit-order:1;order:1" class="tags-list-item waves-effect waves-button waves-light active">金融投资</a>
+
+        
+    </nav>
+    <!-- PC show more-->
+    <div class="tags-list-more">
+        <a href="javascript:;" onclick="BLOG.tabBar(this)" class="action tags-list-item waves-effect waves-circle waves-light"><i class="icon icon-ellipsis-h"></i></a>
+    </div>
+</div>
+
 
 
 </header>
 
-<div class="container body-wrap">
-
-    <ul class="post-list">
+<div class="container body-wrap fade">
     
-        <li class="post-list-item fade">
-            <article id="post-新的落脚点"
-  class="article-card article-type-post" itemprop="blogPost">
+            <div class="waterfall">
+          
 
+            <div class="waterfall-item">
+  <article class="article-card archive-article">
     <div class="post-meta">
-        <time class="post-time" title="2018-10-14 12:20:29" datetime="2018-10-14T04:20:29.000Z"  itemprop="datePublished">2018-10-14</time>
+      <time class="post-time" title="2018-10-14 12:20:29" datetime="2018-10-14T04:20:29.000Z"  itemprop="datePublished">2018-10-14</time>
 
-        
+      
 
 
     </div>
-
     
 
 
@@ -167,19 +187,6 @@
 
 
 
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        缘起网易博客今年底要关闭，而我也正想熟悉下markdown的语法。到处搜罗了一番，自己搭个博客更好玩。
-内容以前的博客，几乎没有什么技术相关的东西，全是满篇的灌水帖。目前有一些计划，这里的内容也会丰富起来。
-Java学习目前我就职的这家公司，以Java语言开发为主。而我在这呆了几年，感觉自己的Java功力没有什么进步。最近在学习“极客时间”的专栏《Java核心技术36讲》，把自己的所学所想，...
-    
-
-        <a href="/2018/10/14/新的落脚点/" class="post-more waves-effect waves-button">
-            阅读全文…
-        </a>
-    </div>
     
     <div class="post-footer">
         
@@ -187,15 +194,15 @@ Java学习目前我就职的这家公司，以Java语言开发为主。而我在
 
     </div>
     
-</article>
-
-        </li>
-    
-    </ul>
-
-    
-
+  </article>
 </div>
+
+        
+            </div>
+        
+    
+</div>
+
 
         <footer class="footer">
     <div class="top">
@@ -236,7 +243,7 @@ Java学习目前我就职的这家公司，以Java语言开发为主。而我在
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://localhost:4000/&title=晴天&pic=http://localhost:4000/img/close-up-of-twig-with-leaves.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://localhost:4000/tags/金融投资/&title=晴天&pic=http://localhost:4000/img/close-up-of-twig-with-leaves.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -246,22 +253,22 @@ Java学习目前我就职的这家公司，以Java语言开发为主。而我在
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://localhost:4000/&title=晴天&source=every day is a sunny day" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://localhost:4000/tags/金融投资/&title=晴天&source=every day is a sunny day" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/tags/金融投资/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=晴天&url=http://localhost:4000/&via=http://localhost:4000" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=晴天&url=http://localhost:4000/tags/金融投资/&via=http://localhost:4000" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/tags/金融投资/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -272,7 +279,7 @@ Java学习目前我就职的这家公司，以Java语言开发为主。而我在
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAAAAAAZai4+AAABU0lEQVR42u3awQ6EIAxFUf//p52tiYHc1+pi7GVlFOW4AErhOHA5b+V6f3V9r/9wkSXrQ6xzW+519m+tvszbkiVrMmvVQ1d1eGP77yzvy5IlC0/DtaeyZMl6Y4DgQbMsWbL2rP4U2wm1ZcmSxbM6/etX8luyZP056wwL/1qrFVmyhrF4B+YTOQmv0S/JkjWM9dQmZZpaQqG5LFljWDxJVFuI7n9s+VSWrDEs3mlTFhmTULgsS9YAVjqf84Ejnc5RnC5L1hgW6brpIjatKUvWZFZnQ4UHzcGAIkuWrHCY6Kef4hNJsmR9mlVLy6JmwmNDsmTNYdWOAqRTLxk4ZMmazKqdi+skjOKGZckaw+psjfBUUZqWkiVrJqvTyWsL1+AkkSxZsvAGJ38r2OaUJUtWY0OFJ3+XBlmyRrJI0MxTurVdS1myJrPSCLZ2EOF4o8iS9QXWD+RsnKR/Z6YpAAAAAElFTkSuQmCC" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABt0lEQVR42u3aS27DMAwFQN//0u62QJuEj5SUtBitCsOVR1kQ/Oi6yuv+th496b157Vi4uLhj7v101XGV//35vL4PLi7uee6jiFF55/mb8/1xcXH/Ire3Gy4u7n/lVuj1AgkXF/fTuJUCJg1Mk+cLajVcXNwBt96l3Pf3lv4uLi5ui3uHK0131i5cXNwz3Mnn6+OQtOB5UT7h4uIe4aaJSBry0osXpeIHFxd3M3c+Jpk0StKAiIuLe5Jbv2DRS4N6SdIvPxMuLu5mbm+j+rg0DW0v9sfFxT3CrXw4Pca8IVJ6ExcXdzM3bYikb6YdmhcBFBcX9wi33hiNN21d/CoFPlxc3G3cuORoXblIG6MP6bi4uEe4aQk0udw5acIGtzNwcXEXcdNkpfLhSZMluEeGi4u7mdsbcpwcuuDi4r6Xu+oa1qEsDBcXdyn3DtckfemNVXBxcc9ze83QSQN0XwMFFxd3LXfVEDQdxPaKK1xc3JPceqCpB6806QlqNVxc3I/kpk2T+lGv3mlwcXE/gNsrk3oFz7IUBxcXN+T2mqS9A/fGrri4uCe59YZpbwSSHjtNp3BxcZdyvwDH97lo6TVwBQAAAABJRU5ErkJggg==" alt="微信分享二维码">
 </div>
 
 

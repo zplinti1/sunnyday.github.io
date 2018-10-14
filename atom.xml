@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://localhost:4000/"/>
-  <updated>2018-10-08T16:15:44.000Z</updated>
+  <updated>2018-10-14T07:33:42.000Z</updated>
   <id>http://localhost:4000/</id>
   
   <author>
@@ -17,37 +17,30 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>firstPost</title>
-    <link href="http://localhost:4000/2018/10/09/firstPost/"/>
-    <id>http://localhost:4000/2018/10/09/firstPost/</id>
-    <published>2018-10-08T16:15:44.000Z</published>
-    <updated>2018-10-08T16:15:44.000Z</updated>
+    <title>新的落脚点</title>
+    <link href="http://localhost:4000/2018/10/14/%E6%96%B0%E7%9A%84%E8%90%BD%E8%84%9A%E7%82%B9/"/>
+    <id>http://localhost:4000/2018/10/14/新的落脚点/</id>
+    <published>2018-10-14T04:20:29.000Z</published>
+    <updated>2018-10-14T07:33:42.000Z</updated>
     
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://localhost:4000/2018/10/08/hello-world/"/>
-    <id>http://localhost:4000/2018/10/08/hello-world/</id>
-    <published>2018-10-08T15:59:43.000Z</published>
-    <updated>2018-10-08T15:59:43.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h1><p>网易博客今年底要关闭，而我也正想熟悉下markdown的语法。到处搜罗了一番，自己搭个博客更好玩。</p><h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><p>以前的博客，几乎没有什么<strong>技术</strong>相关的东西，全是满篇的灌水帖。目前有一些计划，这里的内容也会丰富起来。</p><h2 id="Java学习"><a href="#Java学习" class="headerlink" title="Java学习"></a>Java学习</h2><p>目前我就职的这家公司，以<strong>Java</strong>语言开发为主。而我在这呆了几年，感觉自己的Java功力没有什么进步。最近在学习“极客时间”的专栏《Java核心技术36讲》，把自己的所学所想，更新在这里。</p><h2 id="医学知识入门"><a href="#医学知识入门" class="headerlink" title="医学知识入门"></a>医学知识入门</h2><p>最近的两年，见证了两位老人的的远去，都是由于得了癌症去世。每当自己去看望她们，自己总是帮不上什么忙。既然“疾病”总是会来到身边，何不早点熟悉下他们，知己知彼，从容应对。<br>从《内科学》下手？我不是医学人士，万万不可能这样自作孽。去年买了<strong>《默克家庭医学手册》第三版</strong>，计划了一下，两年内过一遍，对西医<br>的治疗体系，有个大致的了解。</p><p><img src="/img/The Merck Manual Home Health Handbook.jpg" width="30%" height="30%"></p><h2 id="金融投资"><a href="#金融投资" class="headerlink" title="金融投资"></a>金融投资</h2><p>人这一生，总是避不开钱。谈钱，不可避免的关注起<strong>金融投资</strong>。目前主要关注A股投资，主要是跟着<strong>ETF拯救世界</strong>发布的计划，加上自己的定投和网格。</p><h2 id="灌水"><a href="#灌水" class="headerlink" title="灌水"></a>灌水</h2><p>这个一直少不了。。。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;h1 id=&quot;缘起&quot;&gt;&lt;a href=&quot;#缘起&quot; class=&quot;headerlink&quot; title=&quot;缘起&quot;&gt;&lt;/a&gt;缘起&lt;/h1&gt;&lt;p&gt;网易博客今年底要关闭，而我也正想熟悉下markdown的语法。到处搜罗了一番，自己搭个博客更好玩。&lt;/p&gt;
+&lt;h1 id=&quot;内容&quot;&gt;&lt;a h
       
     
     </summary>
     
+    
+      <category term="Java" scheme="http://localhost:4000/tags/Java/"/>
+    
+      <category term="默克家庭医学手册" scheme="http://localhost:4000/tags/%E9%BB%98%E5%85%8B%E5%AE%B6%E5%BA%AD%E5%8C%BB%E5%AD%A6%E6%89%8B%E5%86%8C/"/>
+    
+      <category term="金融投资" scheme="http://localhost:4000/tags/%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84/"/>
     
   </entry>
   
