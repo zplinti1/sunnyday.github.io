@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zplinti1.github.io/"/>
-  <updated>2018-10-29T15:34:28.000Z</updated>
+  <updated>2018-10-29T16:45:48.000Z</updated>
   <id>https://zplinti1.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>情绪不稳定来源于意外</title>
+    <link href="https://zplinti1.github.io/2018/10/29/%E6%83%85%E7%BB%AA%E4%B8%8D%E7%A8%B3%E5%AE%9A%E6%9D%A5%E6%BA%90%E4%BA%8E%E6%84%8F%E5%A4%96/"/>
+    <id>https://zplinti1.github.io/2018/10/29/情绪不稳定来源于意外/</id>
+    <published>2018-10-29T15:52:27.000Z</published>
+    <updated>2018-10-29T16:45:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>上周，难得见到了券商指数涨停，真是活久见。内心小小波动了一下，源于我真的没想过指数可以涨停！E大倒是淡定：</p><blockquote><p>网友问：E大是不是天生就是情绪稳定之人？</p><p>E大回复：情绪的不稳定来源于“意外”。无论是意外的喜还是悲。资本市场这点波动都在意外之中，当然也就没有什么不稳定。 </p></blockquote><p><img src="/img/2018/ten_percent.png" width="60%" height="60%"></p><p>最近继续看《默克家庭医学手册》，多看一点，提前对现代医疗多认识一点。前阵子，我一起见证了外婆离去，如果提前看了&lt;临终和死亡&gt;这章，对于很多事，就能提前做准备了。</p><blockquote><p>想避免呼吸困难的临终患者应该明白医生可完全控制症状，但这样处理的手段可能造成意识丧失，甚至加快死亡的来临。</p></blockquote><p>外婆就是因为呼吸困难而送去医院，上了呼吸机，而后上了镇静剂，意识更加模糊，最后两三天都是模模糊糊的，再也没有搭上一句话。如果提前了解这个，就可以提前做选择，而不是完全遵从医生的选择。医生大都倾向于上镇静剂，但这也可能加快了死亡的来临。而我得到的信息是，如果撤了呼吸机，病人可能氧气不够，坚持不了太久，上呼吸机都是为了病人好。</p><blockquote><p>假如一个人希望在家里逝去，家属应预先明确谁去呼救（如医生或者护理院护士）以及知道谁不需呼救（如救护车）。</p></blockquote><p>书里多次谈到临终时，在家里治疗和医院的差异。外婆在医院时，说的最多的就是“我要回家”。如果我们针对这种情况，提前做了讨论和准备，外婆想回家，也完全是可以做到的。然而，现实是外婆“意外”住院，意识已经没那么清楚，家人同意在家治疗就得承担风险，出了事情也得家人负责，增加了太多的心理负担。</p><p>我一直想搞个癌症预案，免得万一得病，跟着预案走，免得病急乱投医。这里面的内容，还可以加上</p><ul><li>在家还是在医院治疗</li><li>是否使用创伤性的延迟生命的方式 - 管饲，手术，复苏</li><li>忍受疼痛还是吃止痛药（可能导致意识模糊）</li><li>生前遗嘱</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;上周，难得见到了券商指数涨停，真是活久见。内心小小波动了一下，源于我真的没想过指数可以涨停！E大倒是淡定：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;网友问：E大是不是天生就是情绪稳定之人？&lt;/p&gt;
+&lt;p&gt;E大回复：情绪的不稳定来源于“意外”。无论是意外的喜还是悲。资本市场这
+      
+    
+    </summary>
+    
+    
+      <category term="默克家庭医学手册" scheme="https://zplinti1.github.io/tags/%E9%BB%98%E5%85%8B%E5%AE%B6%E5%BA%AD%E5%8C%BB%E5%AD%A6%E6%89%8B%E5%86%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>无言的争吵</title>
@@ -59,9 +85,9 @@
     </summary>
     
     
-      <category term="Java" scheme="https://zplinti1.github.io/tags/Java/"/>
-    
       <category term="默克家庭医学手册" scheme="https://zplinti1.github.io/tags/%E9%BB%98%E5%85%8B%E5%AE%B6%E5%BA%AD%E5%8C%BB%E5%AD%A6%E6%89%8B%E5%86%8C/"/>
+    
+      <category term="Java" scheme="https://zplinti1.github.io/tags/Java/"/>
     
       <category term="金融投资" scheme="https://zplinti1.github.io/tags/%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84/"/>
     
