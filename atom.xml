@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zplinti1.github.io/"/>
-  <updated>2018-11-11T16:54:19.000Z</updated>
+  <updated>2018-11-11T16:57:44.000Z</updated>
   <id>https://zplinti1.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://zplinti1.github.io/2018/11/12/%E5%8E%9F%E6%9D%A5%E6%AF%8F%E5%A4%A9%E8%AF%BB%E4%B9%A6%E6%97%B6%E9%97%B4%E4%B8%8D%E5%88%B0%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%97%B6/"/>
     <id>https://zplinti1.github.io/2018/11/12/原来每天读书时间不到一个小时/</id>
     <published>2018-11-11T16:29:36.000Z</published>
-    <updated>2018-11-11T16:54:19.000Z</updated>
+    <updated>2018-11-11T16:57:44.000Z</updated>
     
-    <content type="html"><![CDATA[<p>读书之余，为了方便统计下读书时间，用了<strong>iHour</strong>这个APP。APP简单易用，我把最近需要读的书，分为三个项目：</p><ul><li>默克家庭医学手册</li><li>Java 36讲</li><li>读库</li></ul><p>每次开始读书，点击一下开始按钮，结束读书时，再点击一下结束，倒也方便。只是不曾想到，我每天看书的时间，平均下来，竟然每天不到一个小时。<br><img src="/img/2018/iHour_items.png" width="30%" height="30%"><img src="/img/2018/iHour_usedTimeInWeek.png" width="30%" height="30%"></p><p>我每天8点左右吃完晚饭，直到凌晨1-2点睡觉，中间差不多有5个小时的时间。而我，没有带小孩的烦恼，也不是经常性的加班，我把这些时间花哪去了？</p><p>令人深思！</p><p>决定从下周起，记录每天、每小时的时间使用情况，持续两周。两周后，再来总结一下。</p>]]></content>
+    <content type="html"><![CDATA[<p>读书之余，为了方便统计下读书时间，用了<strong>iHour</strong>这个APP。APP简单易用，我把最近需要读的书，分为三个项目：</p><ul><li>默克家庭医学手册</li><li>Java 36讲</li><li>读库</li></ul><p>每次开始读书，点击一下开始按钮，结束读书时，再点击一下结束，倒也方便。只是不曾想到，我每天看书的时间，平均下来，竟然每天不到一个小时。<br><img src="/img/2018/iHour_items.PNG" width="30%" height="30%"><img src="/img/2018/iHour_usedTimeInWeek.PNG" width="30%" height="30%"></p><p>我每天8点左右吃完晚饭，直到凌晨1-2点睡觉，中间差不多有5个小时的时间。而我，没有带小孩的烦恼，也不是经常性的加班，我把这些时间花哪去了？</p><p>令人深思！</p><p>决定从下周起，记录每天、每小时的时间使用情况，持续两周。两周后，再来总结一下。</p>]]></content>
     
     <summary type="html">
     
@@ -138,9 +138,9 @@
     </summary>
     
     
-      <category term="Java" scheme="https://zplinti1.github.io/tags/Java/"/>
-    
       <category term="默克家庭医学手册" scheme="https://zplinti1.github.io/tags/%E9%BB%98%E5%85%8B%E5%AE%B6%E5%BA%AD%E5%8C%BB%E5%AD%A6%E6%89%8B%E5%86%8C/"/>
+    
+      <category term="Java" scheme="https://zplinti1.github.io/tags/Java/"/>
     
       <category term="金融投资" scheme="https://zplinti1.github.io/tags/%E9%87%91%E8%9E%8D%E6%8A%95%E8%B5%84/"/>
     
