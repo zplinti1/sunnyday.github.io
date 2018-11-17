@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    
+    <title>了解的越多，越觉得自己无知 | 晴天 | sunny day</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="Java">
+    <meta name="description" content="花了11个小时，把极客时间出品的《Java核心技术36讲》过了一遍，有两个大的感受：  Java的世界，真是浩瀚的大海，我写过几行代码，见过几个小池塘，几条小溪，便想象Java的世界，最多也就是几个小湖泊，真是见识短浅。 小溪最终也会汇入湖泊海洋，我如果对用到的东西，多一分好奇，或许早就见到江河湖海，日月星辰。  Java Exception的小故事记得我刚加入LogicMonitor不久，那时，">
+<meta name="keywords" content="Java">
+<meta property="og:type" content="article">
+<meta property="og:title" content="了解的越多，越觉得自己无知">
+<meta property="og:url" content="https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/index.html">
+<meta property="og:site_name" content="晴天">
+<meta property="og:description" content="花了11个小时，把极客时间出品的《Java核心技术36讲》过了一遍，有两个大的感受：  Java的世界，真是浩瀚的大海，我写过几行代码，见过几个小池塘，几条小溪，便想象Java的世界，最多也就是几个小湖泊，真是见识短浅。 小溪最终也会汇入湖泊海洋，我如果对用到的东西，多一分好奇，或许早就见到江河湖海，日月星辰。  Java Exception的小故事记得我刚加入LogicMonitor不久，那时，">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://zplinti1.github.io/img/2018/Java-36-courses.JPG">
+<meta property="og:updated_time" content="2018-11-17T15:06:13.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="了解的越多，越觉得自己无知">
+<meta name="twitter:description" content="花了11个小时，把极客时间出品的《Java核心技术36讲》过了一遍，有两个大的感受：  Java的世界，真是浩瀚的大海，我写过几行代码，见过几个小池塘，几条小溪，便想象Java的世界，最多也就是几个小湖泊，真是见识短浅。 小溪最终也会汇入湖泊海洋，我如果对用到的东西，多一分好奇，或许早就见到江河湖海，日月星辰。  Java Exception的小故事记得我刚加入LogicMonitor不久，那时，">
+<meta name="twitter:image" content="https://zplinti1.github.io/img/2018/Java-36-courses.JPG">
+    
+        <link rel="alternate" type="application/atom+xml" title="晴天" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu"  >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/abstract-circle-of-books.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/close-up-of-twig-with-leaves.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">Lin Tian</h5>
+          <a href="mailto:zplinti1@gmail.com" title="zplinti1@gmail.com" class="mail">zplinti1@gmail.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/zplinti1" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">了解的越多，越觉得自己无知</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">了解的越多，越觉得自己无知</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2018-11-17T09:02:47.000Z" itemprop="datePublished" class="page-time">
+  2018-11-17
+</time>
+
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Java-Exception的小故事"><span class="post-toc-number">1.</span> <span class="post-toc-text">Java Exception的小故事</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#JMH的小故事"><span class="post-toc-number">2.</span> <span class="post-toc-text">JMH的小故事</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#未来"><span class="post-toc-number">3.</span> <span class="post-toc-text">未来</span></a></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-read-java-36-courses-first-time"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">了解的越多，越觉得自己无知</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2018-11-17 17:02:47" datetime="2018-11-17T09:02:47.000Z"  itemprop="datePublished">2018-11-17</time>
+
+            
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <p>花了11个小时，把极客时间出品的《Java核心技术36讲》过了一遍，有两个大的感受：</p>
+<ul>
+<li>Java的世界，真是浩瀚的大海，我写过几行代码，见过几个小池塘，几条小溪，便想象Java的世界，最多也就是几个小湖泊，真是见识短浅。</li>
+<li>小溪最终也会汇入湖泊海洋，我如果对用到的东西，多一分好奇，或许早就见到江河湖海，日月星辰。</li>
+</ul>
+<h1 id="Java-Exception的小故事"><a href="#Java-Exception的小故事" class="headerlink" title="Java Exception的小故事"></a>Java Exception的小故事</h1><p>记得我刚加入LogicMonitor不久，那时，我还在从C切换成Java。我的boss在review我的代码时，发现我对Exception和Error的概念完全不清楚，给我简单讲解几句后，然后给我几个文档去学习，那时起，我才对它们有一些初步了解。</p>
+<ul>
+<li><a href="http://tutorials.jenkov.com/java-exception-handling/index.html" target="_blank" rel="noopener">jenkov - Java Exception Handling</a></li>
+<li><a href="http://www.importnew.com/14688.html" target="_blank" rel="noopener">ImportNew - 深入理解java异常处理机制</a></li>
+</ul>
+<p>想来那时，啥也不懂，也不会觉得自己无知，每天写着各种业务代码，倒也是轻松愉快，就这样过了几年，回头一看，发现其实自己并没有太多成长。36讲里，我能答得上来的，不超过5讲。</p>
+<p>这是一个坏事，我度过这么多年光阴，没有太多成长。<br>这是一个好事，我花了11个小时，就对这36讲里的内容有初步的了解。</p>
+<h1 id="JMH的小故事"><a href="#JMH的小故事" class="headerlink" title="JMH的小故事"></a>JMH的小故事</h1><p>有缘的是，前日中午，组内有个同事做了个技术分享，给我们分享<a href="https://openjdk.java.net/projects/code-tools/jmh/" target="_blank" rel="noopener">JMH</a>， 而第二天看到第34讲，也恰好介绍这个，正好加深印象。</p>
+<p>对比技术分享里的内容和课程里的内容，显然同事讲解的更加深入，更容易让我印象深刻。我不禁反思：</p>
+<ol>
+<li>36讲，就这样看过一遍，查过一些附加资料，就算学习完了？更好的做法是，这只是一个起点，让我看到了星辰大海，而我如果对某个星星比较感兴趣，往后就可以继续深挖下去，再接着写个博客详细介绍，或者也做个技术分享。</li>
+<li>为何同事比我更早的接触到JMH？回到开头，或许就是因为我对用到的东西，本着能用就行，需要深入了解时，再去花时间去看。工作的大部分情况，却是不需要我深入了解，或者说，没有人推动我去了解，我就不会去主动了解。前几年去看《Elasticsearch - The Definitive Guide》，也是因为boss推荐我去看，而后才去看；而Elasticsearch的源码，下载后就再也没有看了。做事的积极性、主动性，完全不够。当然现在好多了，用了iHour，用时间，记录自己的成长。虽然称不上“每天让自己博学一点点”，长期来看，随着时间流逝，我也越来越博学。</li>
+</ol>
+<h1 id="未来"><a href="#未来" class="headerlink" title="未来"></a>未来</h1><p>36讲里的大部分内容，都是一些基础东西。计划把每一讲的内容，以及自己的领悟，用自己的话，也一一记录在这个博客里。这是个几倍于11个小时的工作量，哈哈，我又乱立Flag。</p>
+<p><img src="/img/2018/Java-36-courses.JPG" width="50%/"></p>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2018-11-17T15:06:13.000Z" itemprop="dateUpdated">2018-11-17 23:06:13</time>
+</span><br>
+
+
+        
+        来源： <a href="/2018/11/17/read-java-36-courses-first-time/" target="_blank" rel="external">https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/</a>
+        
+    </div>
+    
+    <footer>
+        <a href="https://zplinti1.github.io">
+            <img src="/img/close-up-of-twig-with-leaves.jpg" alt="Lin Tian">
+            Lin Tian
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/&title=《了解的越多，越觉得自己无知》 — 晴天&pic=https://zplinti1.github.io/img/close-up-of-twig-with-leaves.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/&title=《了解的越多，越觉得自己无知》 — 晴天&source=every day is a sunny day" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《了解的越多，越觉得自己无知》 — 晴天&url=https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/&via=https://zplinti1.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2018/11/12/原来每天读书时间不到一个小时/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">原来每天读书时间不到一个小时</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'false' == 'true',
+            verify: 'false' == 'true',
+            appId: "utgkcXwrHi7OP0LMCjj7kmvU-gzGzoHsz",
+            appKey: "SbaH4T6IrUhrA2AvYGa2z0mV",
+            avatar: "mm",
+            placeholder: "Just go go",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "10"
+        })
+    </script>
+    <!-- Valine Comments end -->
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        喜欢作者
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/wechat.jpg" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/wechat.jpg" data-alipay="/img/alipay.jpg">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>博客内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>Lin Tian &copy; 2018</span>
+            <span>
+                
+                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/&title=《了解的越多，越觉得自己无知》 — 晴天&pic=https://zplinti1.github.io/img/close-up-of-twig-with-leaves.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/&title=《了解的越多，越觉得自己无知》 — 晴天&source=every day is a sunny day" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《了解的越多，越觉得自己无知》 — 晴天&url=https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/&via=https://zplinti1.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zplinti1.github.io/2018/11/17/read-java-36-courses-first-time/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACtUlEQVR42u3a0W7bMAwF0Pz/T3fPw+b0XkrMOuD4KahjSccFRIbU6xVfXw/X093k2WSc9yNfu/Dw8PAuLf1p4qdn3//lz8/57E/jRK8ADw8Pb433tKMmQyfjtEs/mQsPDw/vZ/LyjT4ZM1koHh4e3v/OOykWJNt9kuLj4eHh/VtePtysnPr+FbRLX6m14OHh4S10kX7O55X+Hh4eHt5xV73dcN+XD/LwMDt88JfV4uHh4S3w8g131u46T3/bwICHh4e3zWuPVeVLz5tYSRk3//5vn/Hw8PAWeG2KPAsVLaydcVjAxcPDw1vjtY2r2fT5kdb2mBceHh7eZ3izMutJaMmDSnsXDw8Pb4PXNpzab7ZHuJIZi3Xi4eHhXeXlTam89XX32eTAweMIeHh4eAu88zQ6P0SV5/X5iy7+SXh4eHiXeLOmVJs65+O0pG9KyXh4eHhrvFs14FnBoj3ClY+Dh4eHt8ebNbrapRQbevCi148I4OHh4R1v5bMR8tS5fU3RyHh4eHgf4bUN/lvp9au8opCGh4eHt8abbfFJAMjHyecqQggeHh7eAu/k8FNSbshDQj5m3iTDw8PD2+bljf8EeauymqTy0ex4eHh4V3k5LE92k+/nc7XBLCrm4uHh4R3w8iNN7WSzjT4PA0UxAg8PD+8qry0rzBLrWUE2b8VFKTUeHh7eVV5eOJily7fKu3Vaj4eHh7fMO0+az9tpr7sXHh4e3lXeV3nNig55EtyGkG/u4uHh4S3wZnvsye/9k1cwGwcPDw9vg5cEg9lBgVngmXXwhp09PDw8vANeXqRoixFtU+2kmFI3wPDw8PA+yEuKFO0BhaTRNUyp8fDw8H4Ab5aU58/O+lmX4x4eHh7eW9754pL2WJJk59TLtRY8PDy8ri8//MF/ciygDQYnB8Xw8PDwLvF+AQzec6jvOtT5AAAAAElFTkSuQmCC" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
